@@ -1,0 +1,241 @@
+.head {
+    background: url(https://www.kamkaj.pk/Content/images/kamkajV2/slider-bg-gray.png);
+    padding-bottom: 40px;
+}
+.logo {
+    display: inline-block;
+    padding: 10px 0;
+    max-width: 205px;
+    width: 100%;
+}
+.right-contact {
+    margin: 0;
+    padding: 21px 0;
+    display: inline-block;
+    float: right;
+}
+.slider h1 {
+    font-size: 45px;
+    color: #38495a;
+}
+.slider h1 span {
+    color: #f86202;
+}
+a {
+    text-decoration: none;
+}
+.right-contact a {
+    color: #333;
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.city-searchbox.w-75 {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    box-shadow: 1px 4px 7px 2px #00000038;
+}
+.bookingslider-right {
+    background: url(https://www.kamkaj.pk/content/images/kamkajV2/book-form-bg.png) no-repeat top/cover;
+    max-width: 360px;
+    padding: 15px;
+    border-radius: 20px 24px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+.category-tile {
+    background-color: #ececec;
+    text-decoration: none;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 15px 2px;
+}
+.category-tile strong {
+    color: #333;
+    margin: 0;
+    display: block;
+    font-weight: 400;
+    padding: 5px 10px;
+    line-height: 1.2;
+}
+.w-200px {
+    width: 200px;
+}
+div#services {
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.w-100.toptocome button#btn-search {
+    position: absolute;
+    right: 0;
+}
+.w-100.toptocome {
+    position: relative;
+}
+.bookingslider-right h2 {
+    color: #fff;
+    margin: 15px 0;
+}
+.bookingslider-right .form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+select#City {
+    color: #333;
+    width: 100%;
+    height: 43px;
+    line-height: 43px;
+    text-indent: 15px;
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.right-contact .fa-solid {
+    background: #f86202;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+}
+.bookingslider-right .form-group i {
+    line-height: 38px;
+    background: #efefef;
+    border-radius: 0 7px 7px 0;
+    width: 20px;
+}
+input#Program {
+    color: #333;
+    width: 100%;
+    height: 43px;
+    line-height: 43px;
+    text-indent: 15px;
+    border-radius: 0 7px 7px 0;
+    border: 0;
+    outline: 0;
+    margin-left: -4px;
+    background-color: transparent;
+}
+.w-200px select {
+    width: 200px;
+    margin-right: 12px;
+    position: relative;
+}
+span.k-select {
+    border-color: #c5c5c5;
+    border-radius: 0 4px 4px 0;
+    min-height: 1.65em;
+    line-height: 2em;
+    vertical-align: middle;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    width: 1.9em;
+    height: 100%;
+    background: #efefef;
+}
+span.k-dropdown-wrap.k-state-default {
+    display: flex;
+}
+button.btn.btn-primary {
+    background-color: #fe8315;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+.form-group.service-field i {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cardbox-img-text {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    border-radius: 15px;
+}
+.cardbox-img-text h2 {
+    color: #fff;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    transform: translate3d(0,110px,0);
+    transition: all ease-in-out .5s;
+    font-size: 28px;
+    padding: 0 20px;
+    margin: 0;
+}
+.cardbox-img-text p {
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    padding: 0 20px;
+    opacity: 0;
+    transition: all ease-in-out .5s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow-wrap: anywhere;
+}
+button.btn.btn-secondary {
+    background-color: #000;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    bottom: 14px;
+    left: 5%;
+    width: 90%;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    border: 0;
+}
+.cardbox-img-text:hover p {
+    opacity: 1;
+}
+.cardbox-img-text:hover h2 {
+        transform: translate3d(0,20px,0);
+    font-size: 20px;
+}
+.col-lg-3.xts-margin-top-15px {
+    margin-top: 15px;
+}
+.col-lg-3.xts-margin-top-30px {
+    margin-top: 30px;
+}
+.cardbox-img-text:before {
+    background: #1c1c1c45;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 11px;
+}
